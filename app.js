@@ -2,6 +2,12 @@ const express = require('express');
 
 const expressLayouts = require('express-ejs-layouts');
 
+const mongoose = require('mongoose')
+
+//
+DB Config
+const db = require('.config/keys').MongoURI;
+
 const app = express();
 
 // EJS
